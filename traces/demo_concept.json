@@ -1,0 +1,98 @@
+{
+  "question": "What is the difference between an LLM and an LLM agent?",
+  "answer": "The excerpts don't give a standalone definition of an LLM, but they do contrast the two.\n\nAn **LLM** is a language model. It is a \"statistical engine\" and, on its own, \"fails on complex tasks, not having an embedded logic\" [Lecture 5, p. 7]. Its output is determined by what it was trained on and the input it receives [Lecture 4, p. 31]. It responds to prompts, for example by taking on a role or following a method such as chain of thought [Lecture 4, p. 31].\n\nAn **LLM agent** is a software system that uses a language model as part of its design [Lecture 5, p. 3]. The excerpts describe several differences:\n\n- **Purpose:** Agents \"execute goal-driven actions, not just provide responses, like chatbots\" [Lecture 5, p. 3].\n- **Scope:** Agents are \"AI-powered modules\" that act on external stimuli and \"integrate with applications to automate reasoning, decision-making, user interactions and courses of action\" [Lecture 5, p. 3].\n- **Components:** Agents \"rely on language models for part of all their components\" [Lecture 5, p. 3], so the LLM is one part of the agent, not the whole.\n- **Reliability:** Because LLMs lack embedded logic, failing agents can produce \"cascading errors across the pipeline, uncontrolled use of the resources, erratic behavior,\" so \"trust must be designed, not assumed\" [Lecture 5, p. 7].\n\nIn short, an LLM generates language, while an LLM agent wraps an LLM in logic and tooling so it can pursue goals and take actions.",
+  "declined": false,
+  "raw_answer": "The excerpts don't give a standalone definition of an LLM, but they do contrast the two.\n\nAn **LLM** is a language model. It is a \"statistical engine\" and, on its own, \"fails on complex tasks, not having an embedded logic\" [S3]. Its output is determined by what it was trained on and the input it receives [S2]. It responds to prompts, for example by taking on a role or following a method such as chain of thought [S2].\n\nAn **LLM agent** is a software system that uses a language model as part of its design [S1]. The excerpts describe several differences:\n\n- **Purpose:** Agents \"execute goal-driven actions, not just provide responses, like chatbots\" [S1].\n- **Scope:** Agents are \"AI-powered modules\" that act on external stimuli and \"integrate with applications to automate reasoning, decision-making, user interactions and courses of action\" [S1].\n- **Components:** Agents \"rely on language models for part of all their components\" [S1], so the LLM is one part of the agent, not the whole.\n- **Reliability:** Because LLMs lack embedded logic, failing agents can produce \"cascading errors across the pipeline, uncontrolled use of the resources, erratic behavior,\" so \"trust must be designed, not assumed\" [S3].\n\nIn short, an LLM generates language, while an LLM agent wraps an LLM in logic and tooling so it can pursue goals and take actions.",
+  "citations": [
+    {
+      "tag": "S1",
+      "id": "L5_LLM-Agents.pdf#p3#c0",
+      "label": "Lecture 5, p. 3",
+      "source": "L5_LLM-Agents.pdf",
+      "page": 3,
+      "lecture": 5,
+      "similarity": 0.726,
+      "text": null
+    },
+    {
+      "tag": "S2",
+      "id": "L4_IntroLLM.pdf#p31#c0",
+      "label": "Lecture 4, p. 31",
+      "source": "L4_IntroLLM.pdf",
+      "page": 31,
+      "lecture": 4,
+      "similarity": 0.5128,
+      "text": null
+    },
+    {
+      "tag": "S3",
+      "id": "L5_LLM-Agents.pdf#p7#c0",
+      "label": "Lecture 5, p. 7",
+      "source": "L5_LLM-Agents.pdf",
+      "page": 7,
+      "lecture": 5,
+      "similarity": 0.5081,
+      "text": null
+    }
+  ],
+  "retrieved": [
+    {
+      "tag": "S1",
+      "id": "L5_LLM-Agents.pdf#p3#c0",
+      "label": "Lecture 5, p. 3",
+      "source": "L5_LLM-Agents.pdf",
+      "page": 3,
+      "lecture": 5,
+      "similarity": 0.726,
+      "text": "What is an LLM Agent? 3 Agents are software elements leveraging on LLM to either/or design the structure or perform specific complex tasks LLM Agents are AI-powered modules that can understand, process and act upon external activation stimuli, including but not limited to natural language They integrate with applications to automate reasoning, decision-making, user interactions and courses of action They rely on language models for part of all their components They execute goal-driven actions, not just provide responses, like chatbots"
+    },
+    {
+      "tag": "S2",
+      "id": "L4_IntroLLM.pdf#p31#c0",
+      "label": "Lecture 4, p. 31",
+      "source": "L4_IntroLLM.pdf",
+      "page": 31,
+      "lecture": 4,
+      "similarity": 0.5128,
+      "text": "Interacting with LLMs using \u201cPrompt Engineering\u201d \u00a7 The output of a LLM is determined by both what the system has been trained on and what information you give it \u00a7 Prompt engineering means tailoring your questions and input so you can get the most out of an LLM \u00a7 Prompts can take many forms, from instructing the LLM to take on a role (e.g. a helpful teacher, an investor) or guiding the way it should process its output (e.g. \u201cchain of thought\u201d or a particular method) 31"
+    },
+    {
+      "tag": "S3",
+      "id": "L5_LLM-Agents.pdf#p7#c0",
+      "label": "Lecture 5, p. 7",
+      "source": "L5_LLM-Agents.pdf",
+      "page": 7,
+      "lecture": 5,
+      "similarity": 0.5081,
+      "text": "Why building and Agent - Evaluation and Trust for LLMs \u00a7 Language models are statistical engines and they fail on complex tasks, not having an embedded logic \u00a7 Failing agents can generate cascading errors cross the pipeline, uncontrolled use of the resources, erratic behavior \u00a7 Trust must be designed, not assumed 7"
+    },
+    {
+      "tag": "S4",
+      "id": "L5_LLM-Agents.pdf#p1#c0",
+      "label": "Lecture 5, p. 1",
+      "source": "L5_LLM-Agents.pdf",
+      "page": 1,
+      "lecture": 5,
+      "similarity": 0.5038,
+      "text": "Carlo Lipizzi AI and You LLM-agents"
+    },
+    {
+      "tag": "S5",
+      "id": "L4_IntroLLM.pdf#p35#c0",
+      "label": "Lecture 4, p. 35",
+      "source": "L4_IntroLLM.pdf",
+      "page": 35,
+      "lecture": 4,
+      "similarity": 0.4654,
+      "text": "Prompting via APIs \u00a7 An API (Application Programming Interface) is a set of rules and tools that allows software programs to communicate with each other \u00a7 LLMs can be integrated in your code using APIs. The LLM would receive data and \u201cprompts\u201d, along with other parameters \u00a7 For example, using OpenAI API, you can define roles: system, assistant and user. \u201cSystem\u201d provides initial instructions or sets the tone and behavior of the assistant; \u201cUser\u201d contains the actual query or command you want the model to respond to; \u201dAssistant\u201d represents the model\u2019s responses in a conversation \u00a7 Data \u2013 such as csv or json files \u2013 can be passed to the LLM via API. The API processes the data and returns the result 35"
+    }
+  ],
+  "tool_calls": [],
+  "flags": [],
+  "latency_ms": 3574,
+  "llm_calls": 1,
+  "input_tokens": 1632,
+  "output_tokens": 680,
+  "backend": "anthropic:claude-haiku-5-5",
+  "cached": false
+}

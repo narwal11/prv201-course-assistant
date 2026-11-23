@@ -1,0 +1,20 @@
+{"id": "A01", "category": "answerable", "question": "What fundamental assumption does supervised learning make about the training and test data?", "gold": ["L1_1_ML-Intro.pdf#p8"]}
+{"id": "A02", "category": "answerable", "question": "What methods does the course list for estimating a classifier's accuracy?", "gold": ["L1_1_ML-Intro.pdf#p15"]}
+{"id": "A03", "category": "answerable", "question": "What is stopword removal in text mining and why is it done?", "gold": ["L2_Intro-Mining_Text.pdf#p9"]}
+{"id": "A04", "category": "answerable", "question": "What is the 'room theory' in the NLP lecture?", "gold": ["L3_NLP_ML.pdf#p16"]}
+{"id": "A05", "category": "answerable", "question": "What does GPT stand for?", "gold": ["L4_IntroLLM.pdf#p3"]}
+{"id": "A06", "category": "answerable", "question": "Why do transformers need pretraining before they are useful?", "gold": ["L4_IntroLLM.pdf#p10"]}
+{"id": "A07", "category": "answerable", "question": "What are the four steps of the LLM agent loop?", "gold": ["L5_LLM-Agents.pdf#p13"]}
+{"id": "A08", "category": "answerable", "question": "How does the face matching step work in a facial recognition system?", "gold": ["L7_Facial_Recognition.pdf#p8"]}
+{"id": "A09", "category": "answerable", "question": "How does the EU AI Act treat real-time facial recognition in public spaces?", "gold": ["L7_Facial_Recognition.pdf#p23"]}
+{"id": "A10", "category": "answerable", "question": "What is CLIP and what does it do?", "gold": ["L8_Image_Recognition.pdf#p26"]}
+{"id": "A11", "category": "answerable", "question": "What are edge cases for autonomous vehicles?", "gold": ["L9_AutonomousVehicles.pdf#p21"]}
+{"id": "A12", "category": "answerable", "question": "What is the GGUF format and why does quantization matter?", "gold": ["L11_BuildingAI.pdf#p25"]}
+{"id": "C01", "category": "code", "question": "Run the sequential-steps example from the Python slides where x = 2 and then x = x + 2. What gets printed?", "gold": ["L1_2_Python.pdf#p7"]}
+{"id": "C02", "category": "code", "question": "Run the if/elif/else birthday example from the Python slides with today = 'June 21'. What does it print?", "gold": ["L1_2_Python.pdf#p8"]}
+{"id": "C03", "category": "code", "question": "Run the populations dictionary example from the Python slides and show what populations['Japan'] and populations.keys() print.", "gold": ["L1_2_Python.pdf#p14"]}
+{"id": "C04", "category": "code", "question": "Run the numpy example a = np.arange(15).reshape(3, 5) from the Python slides and report a.shape, a.ndim and a.size.", "gold": ["L1_2_Python.pdf#p30"]}
+{"id": "O01", "category": "out_of_scope", "question": "What is the capital of Australia?"}
+{"id": "O02", "category": "out_of_scope", "question": "How do I file my federal income taxes?"}
+{"id": "O03", "category": "out_of_scope", "question": "What is a good recipe for chocolate chip cookies?"}
+{"id": "O04", "category": "out_of_scope", "question": "Who is the current CEO of Microsoft?"}

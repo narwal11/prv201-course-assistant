@@ -1,0 +1,20 @@
+Metadata-Version: 2.4
+Name: prv201-assistant
+Version: 0.3.0
+Summary: RAG course assistant for PRV201 with a sandboxed run_python tool
+Requires-Python: >=3.10
+Requires-Dist: anthropic
+Requires-Dist: chromadb
+Requires-Dist: sentence-transformers
+Requires-Dist: pymupdf
+Requires-Dist: nbformat
+Requires-Dist: fastapi
+Requires-Dist: uvicorn
+Requires-Dist: streamlit
+Requires-Dist: requests
+Requires-Dist: numpy
+Requires-Dist: scikit-learn
+Requires-Dist: pypdf
+Provides-Extra: dev
+Requires-Dist: pytest; extra == "dev"
+Requires-Dist: httpx; extra == "dev"

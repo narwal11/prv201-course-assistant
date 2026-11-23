@@ -1,0 +1,129 @@
+{
+  "image": "prv201-sandbox:latest",
+  "contained": 14,
+  "total": 15,
+  "no_persistence": true,
+  "leftover_containers": 0,
+  "results": [
+    {
+      "attack": "01_net_http",
+      "contained": true,
+      "exit_code": 0,
+      "timed_out": false,
+      "ms": 463,
+      "output": "contained: URLError"
+    },
+    {
+      "attack": "02_net_dns",
+      "contained": true,
+      "exit_code": 0,
+      "timed_out": false,
+      "ms": 354,
+      "output": "contained: gaierror"
+    },
+    {
+      "attack": "03_net_raw_ip",
+      "contained": true,
+      "exit_code": 0,
+      "timed_out": false,
+      "ms": 454,
+      "output": "contained: OSError"
+    },
+    {
+      "attack": "04_write_root_fs",
+      "contained": true,
+      "exit_code": 0,
+      "timed_out": false,
+      "ms": 383,
+      "output": "contained: OSError"
+    },
+    {
+      "attack": "05_write_site_packages",
+      "contained": true,
+      "exit_code": 0,
+      "timed_out": false,
+      "ms": 364,
+      "output": "contained: OSError"
+    },
+    {
+      "attack": "06_read_etc_shadow",
+      "contained": true,
+      "exit_code": 0,
+      "timed_out": false,
+      "ms": 352,
+      "output": "contained: PermissionError"
+    },
+    {
+      "attack": "07_env_secrets",
+      "contained": false,
+      "exit_code": 0,
+      "timed_out": false,
+      "ms": 336,
+      "output": "ESCAPED: found ['GPG_KEY']"
+    },
+    {
+      "attack": "08_docker_socket",
+      "contained": true,
+      "exit_code": 0,
+      "timed_out": false,
+      "ms": 334,
+      "output": "contained: no docker socket"
+    },
+    {
+      "attack": "09_fork_bomb",
+      "contained": true,
+      "exit_code": 0,
+      "timed_out": false,
+      "ms": 353,
+      "output": "contained after 62 forks: BlockingIOError"
+    },
+    {
+      "attack": "10_memory_bomb",
+      "contained": true,
+      "exit_code": 137,
+      "timed_out": false,
+      "ms": 851,
+      "output": "Killed: process exceeded the 512 MB memory limit."
+    },
+    {
+      "attack": "11_infinite_loop",
+      "contained": true,
+      "exit_code": 137,
+      "timed_out": true,
+      "ms": 10302,
+      "output": ""
+    },
+    {
+      "attack": "12_disk_fill_tmp",
+      "contained": true,
+      "exit_code": 0,
+      "timed_out": false,
+      "ms": 313,
+      "output": "contained after 15 MB: OSError"
+    },
+    {
+      "attack": "13_pip_install",
+      "contained": true,
+      "exit_code": 0,
+      "timed_out": false,
+      "ms": 8274,
+      "output": "contained: pip exit 1"
+    },
+    {
+      "attack": "14_setuid_root",
+      "contained": true,
+      "exit_code": 0,
+      "timed_out": false,
+      "ms": 366,
+      "output": "contained: uid 65534 PermissionError"
+    },
+    {
+      "attack": "15_mount_fs",
+      "contained": true,
+      "exit_code": 0,
+      "timed_out": false,
+      "ms": 415,
+      "output": "contained: mount exit 32"
+    }
+  ]
+}

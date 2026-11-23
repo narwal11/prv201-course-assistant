@@ -1,0 +1,67 @@
+{
+  "question": "Who won the 2026 World Cup?",
+  "answer": "Not covered: The PRV201 course excerpts do not contain any information about the 2026 World Cup or sports results.",
+  "declined": true,
+  "raw_answer": "Not covered: The PRV201 course excerpts do not contain any information about the 2026 World Cup or sports results.",
+  "citations": [],
+  "retrieved": [
+    {
+      "tag": "S1",
+      "id": "L9_AutonomousVehicles.pdf#p1#c0",
+      "label": "Lecture 9, p. 1",
+      "source": "L9_AutonomousVehicles.pdf",
+      "page": 1,
+      "lecture": 9,
+      "similarity": 0.3298,
+      "text": "Carlo Lipizzi AI and You Autonomous Vehicles 2025"
+    },
+    {
+      "tag": "S2",
+      "id": "L3_NLP_ML.pdf#p1#c0",
+      "label": "Lecture 3, p. 1",
+      "source": "L3_NLP_ML.pdf",
+      "page": 1,
+      "lecture": 3,
+      "similarity": 0.3197,
+      "text": "Carlo Lipizzi AI and You NLP & ML 2025"
+    },
+    {
+      "tag": "S3",
+      "id": "L4_IntroLLM.pdf#p1#c0",
+      "label": "Lecture 4, p. 1",
+      "source": "L4_IntroLLM.pdf",
+      "page": 1,
+      "lecture": 4,
+      "similarity": 0.3109,
+      "text": "Carlo Lipizzi AI and You Intro to LLMs 2025"
+    },
+    {
+      "tag": "S4",
+      "id": "L5_LLM-Agents.pdf#p1#c0",
+      "label": "Lecture 5, p. 1",
+      "source": "L5_LLM-Agents.pdf",
+      "page": 1,
+      "lecture": 5,
+      "similarity": 0.2353,
+      "text": "Carlo Lipizzi AI and You LLM-agents"
+    },
+    {
+      "tag": "S5",
+      "id": "L1_2_Python.pdf#p1#c0",
+      "label": "Lecture 1, p. 1",
+      "source": "L1_2_Python.pdf",
+      "page": 1,
+      "lecture": 1,
+      "similarity": 0.2262,
+      "text": "Carlo Lipizzi AI and You Python \u2013 AI/ML lingua franca 2025"
+    }
+  ],
+  "tool_calls": [],
+  "flags": [],
+  "latency_ms": 953,
+  "llm_calls": 1,
+  "input_tokens": 1115,
+  "output_tokens": 39,
+  "backend": "anthropic:claude-haiku-5-5",
+  "cached": false
+}

@@ -1,0 +1,40 @@
+{
+  "n_items": 20,
+  "config": {
+    "model": "claude-haiku-5-5",
+    "embed_model": "sentence-transformers/all-MiniLM-L6-v2",
+    "top_k": 5,
+    "sim_cutoff": 0.3,
+    "chunk_words": 180,
+    "chunks_in_store": 330
+  },
+  "recall_at_5": "14/16 (88%)",
+  "out_of_scope_declined": "4/4 (100%)",
+  "answerable_falsely_declined": "1/12 (8%)",
+  "code_questions_tool_called": "2/4 (50%)",
+  "code_questions_tool_ran_ok": "2/4 (50%)",
+  "uncited_answers": "0/15 (0%)",
+  "invalid_citations": 0,
+  "median_latency_ms_no_code": 1577,
+  "median_latency_ms_with_code": 3937.5,
+  "tokens_total": {
+    "in": 32881,
+    "out": 5599
+  },
+  "top_sim_answerable": {
+    "min": 0.291,
+    "p25": 0.578,
+    "median": 0.686,
+    "max": 0.834
+  },
+  "top_sim_out_of_scope": {
+    "min": 0.136,
+    "p25": 0.169,
+    "median": 0.195,
+    "max": 0.251
+  },
+  "recall_misses": [
+    "A05",
+    "A10"
+  ]
+}

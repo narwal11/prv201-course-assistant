@@ -1,0 +1,4 @@
+{"id": "A01", "category": "answerable", "question": "What does the k in k-nearest neighbors control?", "gold": ["L06_knn.pdf#p4"], "notes": "EXAMPLE ROW - replace gold with the real slide page"}
+{"id": "A02", "category": "answerable", "question": "Why do we split data into training and test sets?", "gold": ["L03_model_eval.pdf#p7"], "notes": "EXAMPLE ROW"}
+{"id": "C01", "category": "code", "question": "Run the Lecture 6 k-NN example with k = 3 and tell me the accuracy.", "gold": ["L06_knn_lab.ipynb#p5"], "notes": "EXAMPLE ROW - needs run_python"}
+{"id": "O01", "category": "out_of_scope", "question": "Who won the 2026 World Cup?", "notes": "EXAMPLE ROW - must decline"}

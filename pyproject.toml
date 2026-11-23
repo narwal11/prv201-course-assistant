@@ -1,0 +1,33 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "prv201-assistant"
+version = "0.3.0"
+description = "RAG course assistant for PRV201 with a sandboxed run_python tool"
+requires-python = ">=3.10"
+dependencies = [
+    "anthropic",
+    "chromadb",
+    "sentence-transformers",
+    "pymupdf",
+    "nbformat",
+    "fastapi",
+    "uvicorn",
+    "streamlit",
+    "requests",
+    "numpy",
+    "scikit-learn",
+    "pypdf",
+]
+
+[project.optional-dependencies]
+dev = ["pytest", "httpx"]  # httpx is needed by FastAPI's TestClient
+
+[tool.setuptools.packages.find]
+where = ["src"]
+
+[tool.pytest.ini_options]
+pythonpath = ["src", "."]
+testpaths = ["tests"]

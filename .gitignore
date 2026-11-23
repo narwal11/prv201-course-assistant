@@ -1,0 +1,11 @@
+.env
+__pycache__/
+*.pyc
+.venv/
+data/chroma/
+data/raw/*
+!data/raw/.gitkeep
+data/chunks.jsonl
+logs/
+eval/results/*
+!eval/results/.gitkeep

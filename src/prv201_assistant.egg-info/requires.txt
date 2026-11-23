@@ -1,0 +1,16 @@
+anthropic
+chromadb
+sentence-transformers
+pymupdf
+nbformat
+fastapi
+uvicorn
+streamlit
+requests
+numpy
+scikit-learn
+pypdf
+
+[dev]
+pytest
+httpx
